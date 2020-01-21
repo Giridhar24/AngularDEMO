@@ -10,6 +10,7 @@ import { WarningAlertComponent } from './warning-alert/warning-alert.component';
 import { ServerComponent } from './server/server.component';
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,7 +21,8 @@ import { ServerComponent } from './server/server.component';
     ServerComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
